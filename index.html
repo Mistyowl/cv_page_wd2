@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://placehold.co/600x400" alt="My avatar" class="avatar">
+        <h1 class="title__main">Artyom Medin | CV Page</h1>
+        <h2 class="title__subtitle">Frontend developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h2>Skills</h2>
+            <details>
+                <summary>My skills:</summary>
+                <ol class="skills__ol">
+                    <li>1. Figma</li>
+                    <li>2. VS Code</li>
+                    <li>3. HTML&CSS</li>
+                    <li>4. Blender</li>
+                </ol>
+            </details>
+        </section>
+        <article class="article">
+            <h2>Article about me</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minus assumenda deleniti dolores a possimus quidem recusandae ipsa aperiam dolore minima aut impedit culpa qui, illo libero nostrum nihil quibusdam, id dolorum? Modi accusamus earum, totam delectus aspernatur voluptate laudantium!
+            </p>
+        </article>
+        <section class="gallery">
+            <h2>My works</h2>
+            <img src="https://placehold.co/400x600" alt="My work #1">
+            <img src="https://placehold.co/400x600" alt="My work #2">
+            <img src="https://placehold.co/400x600" alt="My work #3">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/1TVlO05Ugjw" title="ＡＵＴＵＭＮ　ＣＨＩＬＬ - [1 HOUR]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h3>My hobbies</h3>
+            <details>
+                <summary>Hobbies list</summary>
+                <ul>
+                    <li>Create 3D Arts</li>
+                    <li>Watch Youtube</li>
+                    <li>Learn new technology</li>
+                </ul>
+            </details>
+        </section>
+
+        <section class="education">
+            <h3>Education</h3>
+            <table class="education__table">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Profession</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IT-Cube</td>
+                        <td>Web Designer</td>
+                        <td>2023 - 2024</td>
+                    </tr>
+                    <tr>
+                        <td>МАОУ ДГГ</td>
+                        <td>Obsee</td>
+                        <td>??? - 2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Мы понимаем на уровне понимания 👵 <i>© Джейсем Стетхен</i>
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="mailto:artyom.medin@yandex.ru" method="post" class="interaction__form">
+                <fieldset>
+                    <legend>Required fields</legend>
+
+                    <label for="firstNameID">First Name</label>
+                    <input type="text" class="form__input" id="firstNameID" name="firstName" placeholder="Type your First Name" required>
+
+                    <label for="secondNameID">Second Name</label>
+                    <input type="text" class="form__input" id="secondNameID" name="secondName" placeholder="Type your Second Name" required>
+
+                    <label for="emailID">Email</label>
+                    <input type="email" name="email" id="emailID" placeholder="Type your mail" class="form__input" required>
+                </fieldset>
+                <textarea name="questions" id="questionsID" cols="30" rows="10" class="questions" placeholder="Ask me"></textarea>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address class="contacts">
+            <br>
+            <a href="tel:+78005553535" class="contacts__link">+78005553535</a>
+            <br>
+            <a href="mailto:artyom.medin@yandex.ru" class="contacts__link">artyom.medin@yandex.ru</a>
+        </address>
+    </footer>
+</body>
+</html>
