@@ -1,54 +1,53 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(255, 233, 215);
+    background-color: #b9eeff;
+    margin: 0;
 }
-
 header {
     text-align: center;
-    margin-top: 10px;
 }
-
 .avatar {
+    margin-top: 24px;
+    height: 300px;
     width: 300px;
-    border-radius: 5px;
+    border-radius: 6px;
 }
-
 .title__main {
-    font-size: 28px;
+    font-size: 24px;
 }
-
 .title__subtitle {
-    font-size: 20px;
-    color: rgb(0, 0, 53);
+    font-size: 18px;
+    color: rgb(38, 32, 71);
 }
-
 main {
-    border: 2px solid rgb(6, 0, 39);
+    border: 2px solid #2a2a2a;
     border-bottom: 0;
-    padding: 18px;
+    padding: 12px;
     text-align: center;
 }
 
-.skills__ol li {
+.skills__ol li{
     list-style: none;
 }
 
+.gallery {
+    display: block;
+}
+
+.gallery__img {
+    width: 400px;
+    height: 600px;
+}
+
 .separator {
+    width: 100%;
     height: 5px;
 }
 
 .video iframe {
+    width: 300px;
     height: 400px;
-    width: 650px;
-}
-
-.hobbies li {
-    list-style: none;
+    max-width: 600px;
 }
 
 .education__table {
@@ -59,48 +58,46 @@ main {
 
 .education__table th,
 .education__table td {
+    padding: 16px;
     border: 1px solid black;
-    padding: 18px;
 }
 
-.interaction__form {
+.quote {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.form {
+    width: 100%;
     display: block;
     margin: 0 auto;
-    width: 500px;
 }
 
 .form__input {
+    width: 100%;
+}
+
+.textarea {
+    margin-top: 14px;
+    width: 90%;
+}
+
+.form__submit {
     display: block;
-    width: 50%;
     margin: 0 auto;
-    margin-bottom: 12px;
-}
-
-.questions {
-    margin-top: 12px;
-    width: 98%;
-}
-
-.submit {
-    display: block;
     height: 30px;
     width: 120px;
-    margin: 0 auto;
 }
 
 footer {
     width: 100%;
-    height: 100px;
-    background-color: darksalmon;
+    height: 120px;
+    background-color: mediumorchid;
 }
-
-.contacts {
+.contracts {
     text-align: center;
 }
-
 .contacts__link {
     color: black;
     font-weight: 700;
-    font-size: 18px;
-    padding: 8px;
 }
