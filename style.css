@@ -1,53 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #b9eeff;
-    margin: 0;
+    background-color: rgb(255, 233, 215);
 }
+
 header {
     text-align: center;
+    margin-top: 10px;
 }
+
 .avatar {
-    margin-top: 24px;
-    height: 300px;
     width: 300px;
-    border-radius: 6px;
+    border-radius: 5px;
 }
+
 .title__main {
-    font-size: 24px;
+    font-size: 28px;
 }
+
 .title__subtitle {
-    font-size: 18px;
-    color: rgb(38, 32, 71);
+    font-size: 20px;
+    color: rgb(0, 0, 53);
 }
+
 main {
-    border: 2px solid #2a2a2a;
+    border: 2px solid rgb(6, 0, 39);
     border-bottom: 0;
-    padding: 12px;
+    padding: 18px;
     text-align: center;
 }
 
-.skills__ol li{
+.skills__ol li {
     list-style: none;
 }
 
-.gallery {
-    display: block;
-}
-
-.gallery__img {
-    width: 400px;
-    height: 600px;
-}
-
 .separator {
-    width: 100%;
     height: 5px;
 }
 
 .video iframe {
-    width: 300px;
     height: 400px;
-    max-width: 600px;
+    width: 650px;
+}
+
+.hobbies li {
+    list-style: none;
 }
 
 .education__table {
@@ -58,46 +59,48 @@ main {
 
 .education__table th,
 .education__table td {
-    padding: 16px;
     border: 1px solid black;
+    padding: 18px;
 }
 
-.quote {
-    font-weight: 500;
-    font-size: 32px;
-}
-
-.form {
-    width: 100%;
+.interaction__form {
     display: block;
     margin: 0 auto;
+    width: 500px;
 }
 
 .form__input {
-    width: 100%;
-}
-
-.textarea {
-    margin-top: 14px;
-    width: 90%;
-}
-
-.form__submit {
     display: block;
+    width: 50%;
     margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.questions {
+    margin-top: 12px;
+    width: 98%;
+}
+
+.submit {
+    display: block;
     height: 30px;
     width: 120px;
+    margin: 0 auto;
 }
 
 footer {
     width: 100%;
-    height: 120px;
-    background-color: mediumorchid;
+    height: 100px;
+    background-color: darksalmon;
 }
-.contracts {
+
+.contacts {
     text-align: center;
 }
+
 .contacts__link {
     color: black;
     font-weight: 700;
+    font-size: 18px;
+    padding: 8px;
 }
