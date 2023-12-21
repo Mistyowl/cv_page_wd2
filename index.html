@@ -3,60 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>(☞ﾟヮﾟ)☞</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="https://placehold.co/600x400" alt="My avatar" class="avatar">
-        <h1 class="title__main">Artyom Medin | CV Page</h1>
-        <h2 class="title__subtitle">Frontend developer</h2>
+        <img src="https://placehold.co/400x400" alt="My avatar" class="avatar">
+        <h1 class="title__main">Artyom Medin</h1>
+        <h2 class="title__subtitle">Frontend Developer, Web Designer</h2>
     </header>
 
     <main>
-        <section class="skills">
-            <h2>Skills</h2>
+        <section class="skill">
+            <h3>Skills</h3>
             <details>
-                <summary>My skills:</summary>
+                <summary>Skills list:</summary>
                 <ol class="skills__ol">
                     <li>1. Figma</li>
                     <li>2. VS Code</li>
                     <li>3. HTML&CSS</li>
-                    <li>4. Blender</li>
                 </ol>
             </details>
         </section>
         <article class="article">
             <h2>Article about me</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minus assumenda deleniti dolores a possimus quidem recusandae ipsa aperiam dolore minima aut impedit culpa qui, illo libero nostrum nihil quibusdam, id dolorum? Modi accusamus earum, totam delectus aspernatur voluptate laudantium!
+                Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Возвращайся повстречался, предложения если над языком вопрос правилами большого своего до его? Диких скатился, правилами заголовок что текста гор. Осталось, которое. Страна всеми его даль ему вопрос жаренные текстов это.
             </p>
         </article>
         <section class="gallery">
-            <h2>My works</h2>
-            <img src="https://placehold.co/400x600" alt="My work #1">
-            <img src="https://placehold.co/400x600" alt="My work #2">
-            <img src="https://placehold.co/400x600" alt="My work #3">
+            <h2>My gallery</h2>
+            <img src="https://placehold.co/400x600" alt="My arts" class="gallery__img">
+            <img src="https://placehold.co/400x600" alt="My arts" class="gallery__img">
+            <img src="https://placehold.co/400x600" alt="My arts" class="gallery__img">
         </section>
-
         <hr class="separator">
-
         <section class="video">
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/1TVlO05Ugjw" title="ＡＵＴＵＭＮ　ＣＨＩＬＬ - [1 HOUR]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/UcT5jcSQ1bU" title="Chill Vibes 👻 Lofi Hip Hop Mix 🎵 lofi beats to chill / relax to" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
-
         <section class="hobbies">
-            <h3>My hobbies</h3>
+            <h2>My hobbies</h2>
             <details>
-                <summary>Hobbies list</summary>
+                <summary>Hobbies list:</summary>
                 <ul>
-                    <li>Create 3D Arts</li>
+                    <li>Modelling 3D Arts</li>
                     <li>Watch Youtube</li>
-                    <li>Learn new technology</li>
+                    <li>Learn new skill</li>
                 </ul>
             </details>
         </section>
-
         <section class="education">
             <h3>Education</h3>
             <table class="education__table">
@@ -69,48 +64,50 @@
                 </thead>
                 <tbody>
                     <tr>
+                        <td>DIT</td>
+                        <td>Tech. Programmer</td>
+                        <td>2012 - ???</td>
+                    </tr>
+                    <tr>
                         <td>IT-Cube</td>
-                        <td>Web Designer</td>
+                        <td>Web Design</td>
                         <td>2023 - 2024</td>
                     </tr>
                     <tr>
-                        <td>МАОУ ДГГ</td>
-                        <td>Obsee</td>
-                        <td>??? - 2024</td>
+                        <td>IT-Cube</td>
+                        <td>VR/AR</td>
+                        <td>2022-2024</td>
                     </tr>
                 </tbody>
             </table>
         </section>
-
         <section class="quote">
             <blockquote>
-                Мы понимаем на уровне понимания 👵 <i>© Джейсем Стетхен</i>
+                «Есть три ответа на результат дизайна – да, нет и НИЧЕГО СЕБЕ! «Ничего себе» – это то, к чему надо стремиться». <i>© Milton Glaser</i> 
             </blockquote>
         </section>
-
         <section class="interaction">
-            <form action="mailto:artyom.medin@yandex.ru" method="post" class="interaction__form">
+            <form action="mailto:artyom.medin@yandex.ru" method="post" target="_blank" class="form">
                 <fieldset>
                     <legend>Required fields</legend>
 
-                    <label for="firstNameID">First Name</label>
-                    <input type="text" class="form__input" id="firstNameID" name="firstName" placeholder="Type your First Name" required>
+                    <label for="firstNameID">First name:</label>
+                    <input type="text" name="firstName" id="firstNameID" placeholder="Type your First Name" required class="form__input">
 
-                    <label for="secondNameID">Second Name</label>
-                    <input type="text" class="form__input" id="secondNameID" name="secondName" placeholder="Type your Second Name" required>
+                    <label for="secondNameID">Second name:</label>
+                    <input type="text" name="secondName" id="secondNameID" placeholder="Type your Second Name" required class="form__input">
 
-                    <label for="emailID">Email</label>
-                    <input type="email" name="email" id="emailID" placeholder="Type your mail" class="form__input" required>
+                    <label for="emailID">Email:</label>
+                    <input type="email" name="email" id="emailID" placeholder="Type your mail" required class="form__input">
                 </fieldset>
-                <textarea name="questions" id="questionsID" cols="30" rows="10" class="questions" placeholder="Ask me"></textarea>
-                <button type="submit" class="submit">Submit</button>
+                <textarea name="questions" id="questionsID" cols="30" rows="10" placeholder="Type your questions???" class="textarea"></textarea>
+                <button type="submit" class="form__submit">Submit</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <address class="contacts">
-            <br>
+        <address class="contracts">
             <a href="tel:+78005553535" class="contacts__link">+78005553535</a>
             <br>
             <a href="mailto:artyom.medin@yandex.ru" class="contacts__link">artyom.medin@yandex.ru</a>
